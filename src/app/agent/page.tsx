@@ -26,10 +26,25 @@ export default function AgentPresentation() {
           <div className="flex flex-col justify-center md:w-1/3">
             <h2 className="text-4xl font-bold mb-6">Attendee Management Tools</h2>
             <p className="text-xl text-gray-700 leading-relaxed">
-              Efficiently manage your seminar attendees with our comprehensive dashboard. 
-              Track confirmations, view attendee details, and manage guest statuses all in one place. 
-              Perfect for financial advisors organizing educational seminars.
+              Our comprehensive platform provides you with:
             </p>
+            <div className="mt-4 space-y-4">
+              <p className="text-xl text-gray-700">
+                Manage your seminars with our intuitive scheduling and organization tools
+              </p>
+              <p className="text-xl text-gray-700">
+                Track attendance and check-ins with real-time updates and reporting
+              </p>
+              <p className="text-xl text-gray-700">
+                Convert prospects into leads with our automated drip campaign system (Coming Soon)
+              </p>
+              <p className="text-xl text-gray-700">
+                Access toll-free numbers for seamless communication with attendees
+              </p>
+              <p className="text-xl text-gray-700">
+                Send and manage messages to keep in touch with your seminar participants (Coming Soon)
+              </p>
+            </div>
           </div>
           <Image 
             src="/agent/agent2.png"
@@ -52,53 +67,11 @@ export default function AgentPresentation() {
             className="rounded-lg shadow-xl md:w-2/3"
           />
           <div className="flex flex-col justify-center md:w-1/3">
-            <h2 className="text-4xl font-bold mb-6">Custom Branding & Event Settings</h2>
+            <h2 className="text-4xl font-bold mb-6">Real-Time Attendance Insights</h2>
             <p className="text-xl text-gray-700 leading-relaxed">
-              Personalize your seminars with custom branding and detailed event settings. 
-              Set up event dates, manage venue information, and maintain your professional 
-              identity across all attendee touchpoints.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Communication Center */}
-      <section className="min-h-screen flex items-center justify-center p-8">
-        <div className="flex flex-col md:flex-row gap-12 max-w-[1400px]">
-          <div className="flex flex-col justify-center md:w-1/3">
-            <h2 className="text-4xl font-bold mb-6">Communication Center</h2>
-            <p className="text-xl text-gray-700 leading-relaxed">
-              Keep your attendees informed and engaged with integrated communication tools. 
-              Send confirmations, manage RSVPs, and handle all attendee correspondence 
-              through a centralized messaging system.
-            </p>
-          </div>
-          <Image 
-            src="/agent/agent1.png"
-            alt="Communication Center Interface"
-            width={900}
-            height={600}
-            className="rounded-lg shadow-xl md:w-2/3"
-          />
-        </div>
-      </section>
-
-      {/* Analytics */}
-      <section className="min-h-screen flex items-center justify-center p-8 bg-white">
-        <div className="flex flex-col-reverse md:flex-row gap-12 max-w-[1400px]">
-          <Image 
-            src="/agent/agent2.png"
-            alt="Performance Analytics Dashboard"
-            width={900}
-            height={600}
-            className="rounded-lg shadow-xl md:w-2/3"
-          />
-          <div className="flex flex-col justify-center md:w-1/3">
-            <h2 className="text-4xl font-bold mb-6">Performance Analytics</h2>
-            <p className="text-xl text-gray-700 leading-relaxed">
-              Track your seminar success with detailed analytics. Monitor attendance rates, 
-              measure engagement metrics, and gain valuable insights to optimize your future 
-              financial education events.
+              Track real-time check-ins, monitor attendance metrics, and access participant 
+              profiles from a centralized dashboard. This focused view gives you complete 
+              visibility into your seminar attendance and performance.
             </p>
           </div>
         </div>
