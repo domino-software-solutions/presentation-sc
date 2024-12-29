@@ -4,8 +4,8 @@ export default function AdminPresentation() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-blue-50">
       {/* Title Slide */}
-      <section className="h-screen flex flex-col items-center justify-center p-8 mb-24 pt-52">
-        <h1 className="text-7xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-blue-700 to-blue-900 tracking-tight">
+      <section className="h-screen flex flex-col items-center justify-center p-8 mb-24 pt-64">
+        <h1 className="text-7xl font-bold mb-8 text-blue-600 p-4">
           Admin Dashboard
         </h1>
         <p className="text-2xl text-gray-700 mb-10 max-w-3xl text-center leading-relaxed">
